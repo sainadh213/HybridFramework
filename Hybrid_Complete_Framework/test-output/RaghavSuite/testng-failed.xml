@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RaghavSuite]">
+  <test thread-count="5" name="ActitimeTest(failed)">
+    <classes>
+      <class name="com.actitime.Tasks.VerifyTasksTest">
+        <methods>
+          <include name="verifyTasks"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.actitime.Tasks.VerifyTasksTest -->
+    </classes>
+  </test> <!-- ActitimeTest(failed) -->
+</suite> <!-- Failed suite [RaghavSuite] -->

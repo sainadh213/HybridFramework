@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Default test started]]>
+    </line>
+    <line>
+      <![CDATA[Login Page is Displayed, PASS]]>
+    </line>
+    <line>
+      <![CDATA[verifyTasks method started]]>
+    </line>
+    <line>
+      <![CDATA[Enter Time Track Page is Displayed, PASS]]>
+    </line>
+    <line>
+      <![CDATA[Tasks List Page is Displayed, PASS]]>
+    </line>
+    <line>
+      <![CDATA[verifyTasks method passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-05-05T12:59:40 IST" name="Default suite" finished-at="2022-05-05T13:00:28 IST" duration-ms="48087">
+    <groups>
+    </groups>
+    <test started-at="2022-05-05T12:59:40 IST" name="Default test" finished-at="2022-05-05T13:00:28 IST" duration-ms="48087">
+      <class name="com.actitime.Tasks.VerifyTasksTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.actitime.Tasks.VerifyTasksTest@3514a4c0]" started-at="2022-05-05T12:59:40 IST" name="openBrowser" finished-at="2022-05-05T13:00:19 IST" duration-ms="39054" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Page is Displayed, PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyTasks()[pri:0, instance:com.actitime.Tasks.VerifyTasksTest@3514a4c0]" started-at="2022-05-05T13:00:19 IST" name="verifyTasks" finished-at="2022-05-05T13:00:28 IST" duration-ms="8609" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[verifyTasks method started]]>
+            </line>
+            <line>
+              <![CDATA[Enter Time Track Page is Displayed, PASS]]>
+            </line>
+            <line>
+              <![CDATA[Tasks List Page is Displayed, PASS]]>
+            </line>
+            <line>
+              <![CDATA[verifyTasks method passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTasks -->
+      </class> <!-- com.actitime.Tasks.VerifyTasksTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
